@@ -1,9 +1,19 @@
-var express = require('express');
-var router = express.Router();
+// routes/skills.js
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+const express = require('express');
+const router = express.Router();
+
+// Require the controller that exports To-Do CRUD functions
+const skillsCtrl = require('../controllers/skills');
+
+// All actual paths begin with "/skills"
+
+// GET /skills
+router.get('/', skillsCtrl.index);
 
 module.exports = router;
+
+
+
+
+
