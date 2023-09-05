@@ -4,6 +4,21 @@ body {
   background-color: blueviolet;
 }
 
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.delete-form button {
+  color: red;
+}
+
+	
+li {
+  list-style: none;
+}
+
 a {
   color:deepskyblue;
   font-size: medium;
@@ -13,8 +28,21 @@ h1{
 color: white;
 
 }
+h3{
+color: white;
+
+}
 
 ul{
+
+
   color: white;
   font-size: medium;
 }
+
+text {
+  color: white;
+  font-weight: bold;
+}
+
+
